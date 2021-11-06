@@ -8,7 +8,7 @@ import {
   Param,
   Post,
 } from '@nestjs/common';
-import { NoContactsError } from 'src/Errors/errors';
+import { NoContactsError } from 'src/Errors/NoContactsError';
 import { CreateContactDto, CreateUserDto } from './user.dto';
 import { AgendaDoc, UserDoc } from './user.interface';
 import { UserService } from './user.service';
